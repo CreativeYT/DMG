@@ -72,6 +72,8 @@ print("*  * * *         *      *         ****       *")
 print("**********************************************")
 print("               Yossef W. Eldeeb               ")
 
+print("\nUse to install all the important tools for termux or linux\n")
+
 maxsum = 2
 
 for i in range(maxsum):
