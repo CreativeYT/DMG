@@ -72,24 +72,32 @@ print("*  * * *         *      *         ****       *")
 print("**********************************************")
 print("               Yossef W. Eldeeb               ")
 
-print("\nUse to install all the important tools\n")
+print("\nUse to install all the important tools for termux or linux\n")
 
-maxsum = 2
-
-for i in range(maxsum):
-    print("\n \nChoose the Operating System:- \n")
-    print("1) Termux")
-    print("2) Linux")
-    print("3) Exit")
-
-    user = int(input("\n: "))
- 
-    if user == 1:
-        termux()
-    elif user == 2:
-        kali()
-    elif user == 3:
-        os.system("clear")
-        break
-    else:
-        print("The Number isn't in the choose!")
+print("\n \nChoose the Operating System:- \n")
+print("1) Termux")
+print("2) Linux")
+print("3) Exit")
+while True: 
+    user = input("\nEnter The Number of Operating System: ")
+    try:
+        user = int(user)
+        if user == 1:
+            termux()
+            print("\n\n!Install Successfully!\n")
+            time.sleep(5)
+            break
+        elif user == 2:
+            kali()
+            print("\n\n!Install Successfully!\n")
+            time.sleep(5)
+            break
+        elif user == 3:
+            os.system("clear")
+            break
+        else:
+            print("The Number isn't in the choose!")
+    except ValueError:
+        print("\n_____________________________\n")
+        print("!Please Enter A Valid Number! ")
+        print("_____________________________")
