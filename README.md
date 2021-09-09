@@ -24,5 +24,5 @@ cd DMG
 ```
 # Running
 ```
-python3 os.py
+python3 DMG.py
 ```
