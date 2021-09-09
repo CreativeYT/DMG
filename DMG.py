@@ -72,7 +72,7 @@ print("*  * * *         *      *         ****       *")
 print("**********************************************")
 print("               Yossef W. Eldeeb               ")
 
-print("\nUse to install all the important tools for termux or linux\n")
+print("\nUse to install all the important tools\n")
 
 maxsum = 2
 
