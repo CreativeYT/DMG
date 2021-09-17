@@ -12,7 +12,7 @@ git clone https://github.com/CreativeYT/DMG
 
 cd DMG
 ```
-# Installation for termux
+# Installation for Kali Linux
 ```
 sudo apt install python3
 
